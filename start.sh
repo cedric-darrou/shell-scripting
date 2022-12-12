@@ -1,3 +1,3 @@
-#! /bin/bash
-
-# pour Cron utiliser */10
+#!/bin/bash
+crontab -e * * * * * log.sh 
+crontab -e */5 * * * * hordor.sh 
